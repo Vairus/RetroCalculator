@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		61E02153202A791800B0AA88 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E02152202A791800B0AA88 /* Minecraft.ttf */; };
+		61E7CB8A202BA5070063DB0F /* beep_short_on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 61E7CB89202BA5070063DB0F /* beep_short_on.wav */; };
 		61E9BACA202263EA00247926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9BAC9202263EA00247926 /* AppDelegate.swift */; };
 		61E9BACC202263EA00247926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9BACB202263EA00247926 /* ViewController.swift */; };
 		61E9BACF202263EA00247926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E9BACD202263EA00247926 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		61E02152202A791800B0AA88 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		61E7CB89202BA5070063DB0F /* beep_short_on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep_short_on.wav; sourceTree = "<group>"; };
 		61E9BAC6202263EA00247926 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E9BAC9202263EA00247926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61E9BACB202263EA00247926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		61E9BAC8202263EA00247926 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				61E7CB89202BA5070063DB0F /* beep_short_on.wav */,
 				61E02152202A791800B0AA88 /* Minecraft.ttf */,
 				61E9BAC9202263EA00247926 /* AppDelegate.swift */,
 				61E9BACB202263EA00247926 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E7CB8A202BA5070063DB0F /* beep_short_on.wav in Resources */,
 				61E9BAD4202263EA00247926 /* LaunchScreen.storyboard in Resources */,
 				61E9BAD1202263EA00247926 /* Assets.xcassets in Resources */,
 				61E02153202A791800B0AA88 /* Minecraft.ttf in Resources */,
