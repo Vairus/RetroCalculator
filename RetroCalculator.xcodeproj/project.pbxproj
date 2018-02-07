@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61E02153202A791800B0AA88 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E02152202A791800B0AA88 /* Minecraft.ttf */; };
 		61E9BACA202263EA00247926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9BAC9202263EA00247926 /* AppDelegate.swift */; };
 		61E9BACC202263EA00247926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E9BACB202263EA00247926 /* ViewController.swift */; };
 		61E9BACF202263EA00247926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E9BACD202263EA00247926 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61E02152202A791800B0AA88 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		61E9BAC6202263EA00247926 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E9BAC9202263EA00247926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61E9BACB202263EA00247926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		61E9BAC8202263EA00247926 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				61E02152202A791800B0AA88 /* Minecraft.ttf */,
 				61E9BAC9202263EA00247926 /* AppDelegate.swift */,
 				61E9BACB202263EA00247926 /* ViewController.swift */,
 				61E9BACD202263EA00247926 /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					61E9BAC5202263EA00247926 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = A5K3KTG98G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +129,7 @@
 			files = (
 				61E9BAD4202263EA00247926 /* LaunchScreen.storyboard in Resources */,
 				61E9BAD1202263EA00247926 /* Assets.xcassets in Resources */,
+				61E02153202A791800B0AA88 /* Minecraft.ttf in Resources */,
 				61E9BACF202263EA00247926 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5K3KTG98G;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hAppy.RetroCalculator;
@@ -274,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5K3KTG98G;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hAppy.RetroCalculator;
@@ -301,6 +308,7 @@
 				61E9BADA202263EA00247926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
