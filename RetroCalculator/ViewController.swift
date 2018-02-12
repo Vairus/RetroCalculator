@@ -74,6 +74,15 @@ class ViewController: UIViewController {
         currentOperation = Operation.Empty
     }
     
+    @IBAction func onClearPressed(sender: UIButton) {
+        playSound()
+        currentOperation = Operation.Empty
+        runningNumber = ""
+        leftValStr = ""
+        rightValStr = ""
+        counterLbl.text = "0"
+    }
+    
     func playSound() {
         if btnSound.isPlaying {
             btnSound.stop()
